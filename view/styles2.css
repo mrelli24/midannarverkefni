@@ -1,0 +1,41 @@
+body{
+	height: 60em;
+	max-width: 50em;
+	margin: 1em auto;
+	background: linear-gradient(to right, #43c6ac, #191654);
+	text-align: center;
+}
+
+.row{
+	display: grid;
+	grid-template: 1fr 1fr;
+	border:1px solid grey;
+	border-radius: 5px;
+}
+.row section{
+	border: 0;
+}
+
+header,footer {
+	border: 3px solid lime;
+	padding: 0.5em;
+	border-radius: 5px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+.pd2{
+	padding-left: 2em;
+}
+h1{
+	padding-left: 5px;
+}
+img{
+	width: 10em;
+	height: 10em;
+	border-radius: 1.2em;
+	margin: 5px;
+	margin-right: 32px;
+}
