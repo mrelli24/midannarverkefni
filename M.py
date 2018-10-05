@@ -1,5 +1,5 @@
+#from sys import argv
 from bottle import *
-
 import urllib.request,json
 
 with urllib.request.urlopen("http://apis.is/petrol/")as url:
@@ -30,4 +30,4 @@ def villa(error):
     return "<h2 style='color:red'>Þessi síða finnst ekki</h2>"
 
 
-run(host='0.0.0.0', port=os.environ.get('PORT'))
+run(host="0.0.0.0", port=os.environ.get('PORT'))
