@@ -1,4 +1,3 @@
-from sys import argv
 from bottle import *
 
 import urllib.request,json
@@ -32,4 +31,3 @@ def villa(error):
 
 
 run(host='0.0.0.0', port=os.environ.get('PORT'))
-#run(host="localhost",port=8080,debug=True)
