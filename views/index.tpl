@@ -38,7 +38,7 @@
                 companyD = data['results'][i]['company']
             end
             end
-        #Viljum bara birta fyrirtækin einu sinni
+  
         if (data["results"][i]["company"] !=data["results"][i-1]["company"]):
     %>
     
