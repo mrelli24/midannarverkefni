@@ -30,3 +30,4 @@ def villa(error):
     return "<h2 style='color:red'>Þessi síða finnst ekki</h2>"
 
 run(host='0.0.0.0', port=os.environ.get('PORT'))
+#run(host="localhost",port=8080,debug=True)
