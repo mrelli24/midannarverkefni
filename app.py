@@ -1,4 +1,3 @@
-from sys import argv
 from bottle import *
 
 import urllib.request,json
@@ -30,5 +29,4 @@ def index(key):
 def villa(error):
     return "<h2 style='color:red'>Þessi síða finnst ekki</h2>"
 
-
-run(host='localhost', port=8080, debug=True)
+run(host='0.0.0.0', port=os.environ.get('PORT'))
